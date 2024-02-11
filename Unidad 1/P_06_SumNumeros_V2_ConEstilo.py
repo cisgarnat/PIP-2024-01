@@ -17,7 +17,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         try:
             #el usuario ingresara los numeros separados por espacios..
             numeros = self.txt_numeros.text()
-            lista = numeros.split(" ") #convierte la entrada de numeros en una lista
+            lista = numeros.split("") #convierte la entrada de numeros en una lista
             print(lista)
             lista_en_numeros = [int(i) for i in lista] #conversion de los caracteres a numeros por lista de compresion
             print(lista_en_numeros)
