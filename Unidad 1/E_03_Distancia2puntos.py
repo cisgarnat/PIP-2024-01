@@ -1,7 +1,9 @@
 import math
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P_t3_Distancia2puntos.ui"  # Nombre del archivo aquí.
+from PyQt5.QtGui import QFont
+
+qtCreatorFile = "E_03_Distancia2puntos.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -25,6 +27,13 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         cadena = "La distancia entre punto A y punto B es : " + str(dist)
 
         msj = QtWidgets.QMessageBox()
+        msj.setStyleSheet(
+            "background-color: rgb(188, 224, 255);"  
+            "color: #333333;"
+        )
+
+        font = QFont("Arial", 12)
+        msj.setFont(font)
         msj.setText(cadena)
         msj.exec_()
 

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Genshin">
+    <file>Imagenes/Starlit-Sky-event-lantern-rite-wallpaper-official-genshin-1.jpg</file>
+  </qresource>
+  <qresource prefix="Logos">
+    <file>Imagenes/ingenieria.jpg</file>
+    <file>Imagenes/uat.png</file>
+    <file>Imagenes/valo.png</file>
+  </qresource>
+  <qresource prefix="Equipo"/>
+</RCC>

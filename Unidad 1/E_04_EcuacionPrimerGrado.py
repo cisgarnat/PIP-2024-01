@@ -3,9 +3,10 @@ import sys
 
 import sympy
 from PyQt5 import uic, QtWidgets
+from PyQt5.QtGui import QFont
 from sympy import symbols
 
-qtCreatorFile = "P_t4_EcuacionPrimerGrado.ui"  # Nombre del archivo aquí.
+qtCreatorFile = "E_04_EcuacionPrimerGrado.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -28,6 +29,13 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         r = sympy.solve(sympy.Eq(a * x + b,n),x)
 
         msj = QtWidgets.QMessageBox()
+        msj.setStyleSheet(
+            "background-color: rgb(13, 72, 127);"
+            "color: #333333;"
+        )
+
+        font = QFont("Arial", 12)
+        msj.setFont(font)
         msj.setText(str(r))
         msj.exec_()
 
