@@ -74,20 +74,20 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QLabel" name="colorburger">
     <property name="geometry">
      <rect>
-      <x>350</x>
-      <y>140</y>
+      <x>370</x>
+      <y>160</y>
       <width>141</width>
       <height>121</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(82, 122, 255);</string>
+    </property>
     <property name="text">
      <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/Genshin/Imagenes/Starlit-Sky-event-lantern-rite-wallpaper-official-genshin-1.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -96,10 +96,10 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>100</y>
-      <width>81</width>
-      <height>21</height>
+      <x>110</x>
+      <y>90</y>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -118,13 +118,13 @@ color: rgb(255, 255, 255);</string>
      <string>Colores</string>
     </property>
    </widget>
-   <widget class="QScrollBar" name="horizontalScrollBar">
+   <widget class="QScrollBar" name="valorR">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>170</y>
-      <width>160</width>
-      <height>16</height>
+      <x>39</x>
+      <y>145</y>
+      <width>191</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -139,13 +139,13 @@ color: rgb(255, 255, 255);</string>
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txt_r">
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>170</y>
-      <width>31</width>
-      <height>20</height>
+      <y>140</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -155,13 +155,13 @@ color: rgb(255, 255, 255);</string>
      </font>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txt_g">
     <property name="geometry">
      <rect>
       <x>240</x>
       <y>200</y>
-      <width>31</width>
-      <height>20</height>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -171,13 +171,13 @@ color: rgb(255, 255, 255);</string>
      </font>
     </property>
    </widget>
-   <widget class="QScrollBar" name="horizontalScrollBar_2">
+   <widget class="QScrollBar" name="valorG">
     <property name="geometry">
      <rect>
-      <x>70</x>
+      <x>40</x>
       <y>200</y>
-      <width>160</width>
-      <height>16</height>
+      <width>191</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -192,13 +192,13 @@ color: rgb(255, 255, 255);</string>
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QScrollBar" name="horizontalScrollBar_3">
+   <widget class="QScrollBar" name="valorB">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>230</y>
-      <width>160</width>
-      <height>16</height>
+      <x>40</x>
+      <y>260</y>
+      <width>191</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -213,13 +213,13 @@ color: rgb(255, 255, 255);</string>
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txt_b">
     <property name="geometry">
      <rect>
       <x>240</x>
-      <y>230</y>
-      <width>31</width>
-      <height>20</height>
+      <y>260</y>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">

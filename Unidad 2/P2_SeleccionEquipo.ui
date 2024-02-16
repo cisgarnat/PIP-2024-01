@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>721</width>
+    <width>755</width>
     <height>445</height>
    </rect>
   </property>
@@ -87,7 +87,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/Genshin/Imagenes/Starlit-Sky-event-lantern-rite-wallpaper-official-genshin-1.jpg</pixmap>
+     <pixmap resource="../recursos.qrc">:/Equipo/Imagenes/Lexiss.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -106,7 +106,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/Genshin/Imagenes/Starlit-Sky-event-lantern-rite-wallpaper-official-genshin-1.jpg</pixmap>
+     <pixmap resource="../recursos.qrc">:/Equipo/Imagenes/Rodrigo.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -125,7 +125,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/Genshin/Imagenes/Starlit-Sky-event-lantern-rite-wallpaper-official-genshin-1.jpg</pixmap>
+     <pixmap resource="../recursos.qrc">:/Equipo/Imagenes/Victor.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -144,13 +144,13 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../recursos.qrc">:/Genshin/Imagenes/Starlit-Sky-event-lantern-rite-wallpaper-official-genshin-1.jpg</pixmap>
+     <pixmap resource="../recursos.qrc">:/Equipo/Imagenes/Natalia.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QCheckBox" name="cb_lexiss">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -172,10 +172,10 @@
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Lexiss</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_2">
+   <widget class="QCheckBox" name="cb_rodrigo">
     <property name="geometry">
      <rect>
       <x>230</x>
@@ -197,10 +197,10 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Rodrigo</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_3">
+   <widget class="QCheckBox" name="cb_victor">
     <property name="geometry">
      <rect>
       <x>410</x>
@@ -222,10 +222,10 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Victor</string>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_4">
+   <widget class="QCheckBox" name="cb_natalia">
     <property name="geometry">
      <rect>
       <x>570</x>
@@ -247,7 +247,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>CheckBox</string>
+     <string>Natalia</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -275,7 +275,7 @@ color: rgb(255, 255, 255);</string>
      <string>Equipo</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
+   <widget class="QTextEdit" name="txt_equipo">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -291,7 +291,8 @@ color: rgb(255, 255, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 255);
+border: 2px solid black</string>
     </property>
    </widget>
   </widget>
@@ -300,7 +301,7 @@ color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>721</width>
+     <width>755</width>
      <height>18</height>
     </rect>
    </property>

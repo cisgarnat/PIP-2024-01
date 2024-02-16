@@ -74,10 +74,10 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QLabel" name="img_persona">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>410</x>
       <y>140</y>
       <width>141</width>
       <height>121</height>
@@ -93,13 +93,13 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QComboBox" name="comboBox">
+   <widget class="QComboBox" name="combo_personas">
     <property name="geometry">
      <rect>
       <x>150</x>
       <y>170</y>
-      <width>171</width>
-      <height>22</height>
+      <width>201</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
@@ -119,9 +119,9 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>139</y>
-      <width>81</width>
-      <height>21</height>
+      <y>129</y>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">

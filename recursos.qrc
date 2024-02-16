@@ -7,5 +7,10 @@
     <file>Imagenes/uat.png</file>
     <file>Imagenes/valo.png</file>
   </qresource>
-  <qresource prefix="Equipo"/>
+  <qresource prefix="Equipo">
+    <file>Imagenes/Lexiss.jpg</file>
+    <file>Imagenes/Natalia.jpg</file>
+    <file>Imagenes/Rodrigo.jpg</file>
+    <file>Imagenes/Victor.jpg</file>
+  </qresource>
 </RCC>

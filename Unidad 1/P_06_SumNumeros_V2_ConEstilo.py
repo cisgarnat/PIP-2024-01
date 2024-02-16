@@ -14,6 +14,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.txt_resultado.setEnabled(False)
     # Área de los Slots
     def sumar(self):
+
         try:
             #el usuario ingresara los numeros separados por espacios..
             numeros = self.txt_numeros.text()
