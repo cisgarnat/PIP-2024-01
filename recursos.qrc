@@ -2,6 +2,11 @@
   <qresource prefix="Genshin">
     <file>Imagenes/Starlit-Sky-event-lantern-rite-wallpaper-official-genshin-1.jpg</file>
   </qresource>
+  <qresource prefix="E1">
+    <file>Imagenes/tijeras.jpg</file>
+    <file>Imagenes/papel.jpg</file>
+    <file>Imagenes/piedra.jpg</file>
+  </qresource>
   <qresource prefix="Logos">
     <file>Imagenes/ingenieria.jpg</file>
     <file>Imagenes/uat.png</file>
