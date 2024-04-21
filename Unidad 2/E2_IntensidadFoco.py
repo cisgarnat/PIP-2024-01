@@ -42,7 +42,6 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
             estilo = ("background-color: rgb(" + str(self.R) + "," + str(self.G) + "," + str(self.B) + ");")
             self.foco.setStyleSheet(estilo)
 
-
     def cambiaIntensidad(self):
         self.R = self.sli_intensidad.value()
         self.G = self.sli_intensidad.value()
