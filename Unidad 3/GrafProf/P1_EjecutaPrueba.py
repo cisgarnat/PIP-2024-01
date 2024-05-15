@@ -1,6 +1,8 @@
+import P2_LeerArchivos as moduloArchivos
+
 import sys
-from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P14_QuestionarioP.ui"  # Nombre del archivo aquí.
+from PyQt5 import uic, QtWidgets, QtGui
+qtCreatorFile = "Plantilla_Grafica.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
@@ -10,8 +12,8 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.setupUi(self)
 
         # Área de los Signals
-    # Área de los Slots
 
+    #Area de Slots
 
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)

@@ -17,18 +17,21 @@ void loop() {
   Serial.println("Ingresa 4 numeros");
     if (Serial.available() > 0) {
       int v = Serial.readString().toInt();
-      if (estado == 0) {
+    if (estado == 0) {
         a = v;
+        estado++;
       } else if (estado == 1){
         b = v;
+        estado++;
       }
       else if (estado == 2){
         c = v;
+        estado++;
       }
       else {
         d = v;
+        estado++;
       }
-      estado++;
     }
   
     

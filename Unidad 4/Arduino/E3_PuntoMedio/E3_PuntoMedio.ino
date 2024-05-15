@@ -38,8 +38,8 @@ void loop() {
       estado++;
     }
   } else if (estado == 4) {
-    int x = (x1+x2)/2);
-    int y = (y1+y2)/2);
+    int x = (x1+x2)/2;
+    int y = (y1+y2)/2;
     Serial.println("Punto Medio entre punto A y B (" + String(x)+"," + String(y)+")");
     estado = 5;
     //Serial.println(estado);

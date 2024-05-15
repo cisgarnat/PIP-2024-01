@@ -1,21 +1,16 @@
-int led = 13;
+int LDR = A0;
 
 void setup() {
   // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.setTimeout(10);
-  pinMode(led,OUTPUT);
- }
+   Serial.begin(9600);
+
+}
 
 int valor;
 void loop() {
-  // put your main code here, to run repeatedly:
-  if(Serial.available()>0){
-    val = Serial.readString().toInt();
-    digitalWrite(led,valor);
-    if(valor ==1){
-      Serial.println("Led Prendido");
-      }
-    else[]
-  }
+    valor = analogRead(LDR); //0 - 1023
+
+    Serial.println("Valor leido: " + String(valor));
+
+    delay(200);
 }

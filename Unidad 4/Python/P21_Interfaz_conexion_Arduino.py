@@ -1,7 +1,7 @@
 import serial
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P3_ListaAlumnos.ui"  # Nombre del archivo aquí.
+qtCreatorFile = "P21_Interfaz_conexion_Arduino.ui"  # Nombre del archivo aquí.
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
 class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):

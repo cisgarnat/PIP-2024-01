@@ -1,15 +1,16 @@
+import self
+
+from Graficacion import Plantilla_Grafica as interfaz
 import sys
 from PyQt5 import uic, QtWidgets
-qtCreatorFile = "P14_QuestionarioP.ui"  # Nombre del archivo aquí.
-Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
-
-class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
+class MyApp(QtWidgets.QMainWindow, interfaz.Ui_MainWindow):
     def __init__(self):
         QtWidgets.QMainWindow.__init__(self)
-        Ui_MainWindow.__init__(self)
+        interfaz.Ui_MainWindow.__init__(self)
         self.setupUi(self)
 
         # Área de los Signals
+
     # Área de los Slots
 
 

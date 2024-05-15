@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 85, 255);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="btn_sumar">
     <property name="geometry">
@@ -22,6 +25,9 @@
       <width>111</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);</string>
     </property>
     <property name="text">
      <string>Sumar</string>
@@ -36,6 +42,9 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="txt_b">
     <property name="geometry">
@@ -46,15 +55,21 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>140</y>
-      <width>35</width>
-      <height>10</height>
+      <x>74</x>
+      <y>129</y>
+      <width>41</width>
+      <height>21</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);</string>
     </property>
     <property name="text">
      <string>A</string>
@@ -63,11 +78,14 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>80</x>
-      <y>220</y>
-      <width>35</width>
-      <height>10</height>
+      <x>74</x>
+      <y>209</y>
+      <width>41</width>
+      <height>21</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);</string>
     </property>
     <property name="text">
      <string>B</string>

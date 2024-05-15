@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(85, 170, 255);</string>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -22,6 +25,9 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 85, 255);</string>
+   </property>
    <property name="text">
     <string>Resultado</string>
    </property>
@@ -29,11 +35,14 @@
   <widget class="QLabel" name="txt_resultado">
    <property name="geometry">
     <rect>
-     <x>60</x>
+     <x>70</x>
      <y>150</y>
      <width>151</width>
      <height>41</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(85, 85, 255);</string>
    </property>
    <property name="text">
     <string>0</string>
